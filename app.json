@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "Maiêutica",
+    "slug": "maiutica",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.maiutica.mobile"
+    },
+    "android": {
+      "package": "com.maiutica.mobile"
+    },
+    "plugins": [
+      [
+        "expo-audio",
+        {
+          "microphonePermission": "Permita que a Maiêutica escute suas perguntas durante a aula.",
+          "recordAudioAndroid": true,
+          "enableBackgroundRecording": false,
+          "enableBackgroundPlayback": false
+        }
+      ]
+    ]
+  }
+}
